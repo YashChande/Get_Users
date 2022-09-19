@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+body {
+    background-color: rgb(239, 239, 252);
+}
+
+button {
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(110, 19, 7, 0.986);
+    padding: 12px 10px;
+}
+
+button:hover {
+    scale: 1.03;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.column1 {
+    height: 80%;
+    width: 150%;
+    float: left;
+    width: 120%;
+    font-family: 'Trebuchet MS';
+    color: white;
+    margin-left: 50px;
+    text-shadow: 2px 2px 3px rgb(9, 9, 9);
+    letter-spacing: 2px;
+}
+
+.column2 {
+    height: 100%;
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.row {
+    display: flex;
+    height: 60px;
+    padding: 7px 11px;
+}
+
+.box {
+    background-color: rgb(248, 141, 141);
+}
+
+.box2 {
+    margin-left: 120px;
+}
+
+.avatar {
+    border-radius: 10%;
+}
+
+.column3 {
+    float: left !important;
+    width: 33% !important;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    font-size: 50px;
+    color: black;
+}
+
+.profile {
+    border: #000000;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    max-width: 250px;
+    margin: 20px 5px;
+    text-align: center;
+    font-family:"Helvetica";
+    padding: 20px;
+    border-radius: 18px;
+    background-color: #5dbde6;
+}
+
+.profile:hover {
+    transition: 400ms;
+    box-shadow: 8px 8px 5px rgb(160, 23, 23);
+    transform: translateY(-8px);
+}
+
+.email {
+    color: rgb(39, 33, 33);
+    font-size: 18px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 1400;
+}
+
+#main {
+    padding: 10px 80px;
+    margin: 0 auto;
+    display: none;
+}
+
+.loader {
+    margin: 0 auto;
+}
